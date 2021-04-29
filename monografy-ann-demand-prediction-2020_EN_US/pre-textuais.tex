@@ -1,0 +1,177 @@
+
+  % ----------------------------------------------------------
+  % Capa
+
+    \begin{capa}
+      \begin{center}
+       \includegraphics[width=.25\textwidth]{logo-unifesp.pdf}
+        \vspace*{\fill}
+        
+        {\ABNTEXchapterfont\large\imprimirautor}
+        \vspace*{\fill}
+        
+        {\ABNTEXchapterfont\bfseries\Large\imprimirtitulo}
+        \vspace*{\fill}\vspace*{\fill}
+        
+       \imprimirlocal
+       \end{center}
+    \end{capa}
+
+
+  % Folha de rosto
+    \imprimirfolhaderosto*
+
+
+  % Inserir folha de aprovação
+    % \includepdf{folhadeaprovacao_final.pdf}
+  %
+    \begin{folhadeaprovacao}
+      \begin{center}
+        {\ABNTEXchapterfont\large\imprimirautor}
+
+        \vspace*{\fill}\vspace*{\fill}
+        {\ABNTEXchapterfont\bfseries\Large\imprimirtitulo}
+        \vspace*{\fill}
+        
+        \hspace{.45\textwidth}
+        \begin{minipage}{.5\textwidth}
+            \imprimirpreambulo
+        \end{minipage}%
+        \vspace*{\fill}
+       \end{center}
+        
+       \assinatura{\textbf{\imprimirorientador} \\ Adviser} 
+       \assinatura{\textbf{Prof.} \\ Dr. Daniela Leal Musa}
+       \assinatura{\textbf{Prof.} \\ Dr. Regina Célia Coelho}
+
+          
+       \begin{center}
+        \vspace*{0.5cm}
+        {\large\imprimirlocal}
+        \par
+        {\large\imprimirdata}
+        \vspace*{1cm}
+      \end{center}
+      
+    \end{folhadeaprovacao}
+
+
+
+  % ----------------------------------------------------------
+
+  % Dedicatória
+
+    \begin{dedicatoria}
+       \vspace*{\fill}
+       \centering
+       \noindent
+       \textit{ This monograph is dedicated to my parents for their endless support and sacrifices they gave my way along this Journey, to all my university mentors whom have provided me knowledge to develop my skills, given me hopes and spend their precious time for my progress and, above all, those who motivated me providing challenges I dared to go beyond my limits. } \vspace*{\fill}
+    \end{dedicatoria}
+
+  % Acknowledgements
+
+    \begin{agradecimentos}
+        \paragraph{My Journey}
+            My journey through the gradution is characterized by a lot of persistence, difficulties and failings. First, I thank God for nourish me with faith, hope and not letting me succumb to pressure. Despite all the technical content of more than 40 disciplines of my course, what really provide me a vision and a deeper learning was the challenging environment of this University; which combined with the personal difficulties, accidents, health setback, career and family; constituted the perfect whole of challenges that made me stronger and fearless to deal with job market, more confident and braver to achieve my objectives. I also thank my family for always fully supported me, my mentors whose guided me in meetings, discussions and chats even on weekends. And finally, I thank all my university friends, colleagues and staff I met during graduation at UNIFESP.
+            
+            \paragraph{Special thanks:}
+                
+            To Mrs. Musa for being my first Coordinator and Counselor when I joined UNIFESP.
+            
+            To the professors of differing subjects which constitute my knowledge base of Science of Computer that prepared me for academic and profissional activities whom helped me through the selection processes I was pleased to participate. To professors Reginaldo Kuroshu, Bruno Kimura, Àlvaro Fazenda, Regina Coelho, Arlindo Flavio, Antonio Chaves, Ana Luiza and Otavio Lemos.
+            
+            To Mrs. Bertini who motivated me within the first studies discipline of System Simulation, which is the theme of this monograph, performing a realization of correlation with resampling of Consumption x Temperature in 2016.
+            
+            To Mrs. Martins, who teaches Statistics and gave me insights about Theoretical Induction of Predictions with Neural Networks, her doctoral thesis was enriching in theoretical bases of this monograph.
+            
+            To Mr. Veloso and Mr. Fabio, for introducing me the discipline of Artificial Intelligence but also provide good guidance in all the developing of theoretical foundation in the first part.
+            
+           To Mr. Quiles, for guiding me in the second part of this monograph, introducing me since the beginning the work with Python, Tensorflow, Scikit Learning, in more specific guidelines for learning the Neural Network. Gratitude for guiding me in the evaluation metrics of models and about the whole experimental methodology, besides the revisions in the final text.
+            
+            To the team of Data Science and Machine Learning Engineering from 2RP-NET, expert in fraud analysis, data and projects with Big-Data, of which recently I was hired for having these experiences and provide an extended meeting period during our office hour to discuss the results and metrics of this employment, team which is composed of professional Masters and Doctors in Data Science and Machine Learning.
+            
+            To all others professors, colleagues, students and staff from the Science and Technology Institute – UNIFESP.
+                
+            
+To my family for supporting me during this long period at UNIFESP.
+
+         \end{agradecimentos}
+ 
+ 
+ 
+  % Epígrafe
+  
+    \begin{epigrafe}
+        \vspace*{\fill}
+    	\begin{flushright}
+    		\textit{Even though discredited and ignored by everyone, I can't give up, because for me, winning is never giving up.\\
+    		(Albert Einstein)}
+    	\end{flushright}
+    \end{epigrafe}
+ 
+ 
+  % ----------------------------------------------------------
+  % RESUMOS
+ 
+  % resumo em português
+    \begin{resumo}
+         The main objective of this research is the study of sales forecasting methods for the UNIFESP university refectory, to avoid overprojection of demand and the consequences of teachers or students without meals. In a previous investigation, performed as a discipline work, the author used statistical methods to analyze the behavior of meal consumption. In this work, machine learning models were developed, more specifically, Neural Networks perceptron multilayer and nets \textit{gated recurrent units}, with methods of analysis of collected data, preparation and pre-processing of informations, selection and evaluation of the best models and final conclusions.
+     
+     \vspace{\onelineskip}
+        
+     \noindent
+     \textbf{Keywords}: Artificial Neural Networks, Demand Forecasting, Machine Learning, Artificial Intelligence, Perceptron Multiple layers.
+     
+     
+    \end{resumo}
+
+  % resumo em inglês
+    \begin{resumo}[Abstract]
+     \begin{otherlanguage*}{english}
+
+% TRADUZIR NOVAMENTE DO RESUMO ALTERADO
+
+        This current work aims to study methods for forecasting meals of Unifesp university restaurant to avoid over-projection of demand resulting from food waste, or under projection with the consequence of teachers or students without meals. In a previous investigation, carried out as discipline work, the author used statistical methods to analyze meal consumption behavior. Machine learning models were developed in this work, more specifically, multilayer perceptron neural networks and gated recurrent units networks, with data analysis methods, preparation and pre-processing of information, selection, and evaluation of the best models and final conclusions.
+
+       \vspace{\onelineskip}
+     
+       \noindent 
+       \textbf{Keywords}: Artificial Neural Networks, Demand Prediction, Machine Learning, Artificial intelligence, Perceptron Multiple layers.
+     \end{otherlanguage*}
+    \end{resumo}
+
+
+  % ----------------------------------------------------------
+  
+  % List of Illustrations
+    \pdfbookmark[0]{\listfigurename}{lof}
+    \listoffigures*
+    \cleardoublepage
+
+  % Table of Contents
+    \pdfbookmark[0]{\listtablename}{lot}
+    \listoftables*
+    \cleardoublepage
+
+
+  % ---  % List of Abbreviations and Acronyms
+  % ---
+    \begin{siglas}
+    \item[ICT] Institute of Science and Technology 
+    \item[R.U.] University Refectory
+    \item[UNIFESP]Federal University of São Paulo
+    \item[UFV] Federal University of Viçosa
+    \item[UNESP] State University Paulista Júlio de Mesquita Filho
+    \item[BDMEP] Meteorological Database for Teaching and Research
+    \item[RNA] Artificial Neural Network
+    \item[MLP] Multi Layer Perceptron
+    \item[GRU] Gated Recurrent Unit
+    \item[RMSE] Root Mean Squared Error
+
+    \end{siglas}
+ 
+  % ---
+    \pdfbookmark[0]{\contentsname}{toc}
+    \tableofcontents*
+    \cleardoublepage
+  % ---
